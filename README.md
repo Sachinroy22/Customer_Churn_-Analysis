@@ -1,4 +1,4 @@
-# Customer Churn Data Analysis Dashboard
+# Customer Churn Data Analysis 
 
 ## 📌 Project Overview
 
