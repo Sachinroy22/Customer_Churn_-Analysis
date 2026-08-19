@@ -402,62 +402,13 @@ Connect Power BI to the cleaned dataset or MySQL table and recreate/refresh the 
 
 ---
 
-## 💡 Analytical Questions
-
-The project is designed to answer:
-
-- How many customers are churned?
-- What is the churn rate?
-- Which contract type has more churn?
-- Which subscription type contributes more churn?
-- Which states generate the most revenue?
-- How does churn vary across internet services?
-- Which payment methods are most common?
-- How does customer tenure relate to churn?
-- How do monthly charges relate to churn?
-- How many churned customers are senior citizens?
-- Who are the highest-value customers?
-- Which customers do not have technical support?
-
----
-
-## ⚠️ Data Quality Notes
-
-The current clean CSV contains **2 records with a missing `Churn` value**. The project documentation does not define an imputation rule for missing churn labels, so this README does not assume one.
-
-Before final reporting, investigate these records or explicitly exclude them from churn-rate calculations.
-
----
-
-## 🔮 Future Enhancements
-
-- Build a churn prediction model using classification algorithms.
-- Add probability-of-churn scoring.
-- Add customer segmentation.
-- Add cohort and retention analysis.
-- Add monthly churn trends.
-- Automate data refresh.
-- Add Power BI drill-through pages.
-- Add customer-level churn-risk details.
-- Add retention recommendations based on churn drivers.
-
----
-
-## 📌 Resume Project Description
-
-**Customer Churn Data Analysis Dashboard | Python, SQL, MySQL, Power BI**
-
-Developed an end-to-end customer churn analytics solution by cleaning and transforming customer data using Python/Pandas, engineering customer-value and tenure features, loading processed data into MySQL, performing SQL-based business analysis, and creating an interactive Power BI dashboard with churn KPIs, revenue analysis, customer segmentation, geographic analysis, and interactive slicers.
-
----
-
 ## 👨‍💻 Skills Demonstrated
 
 **Data Analytics:** Data Cleaning, EDA, Feature Engineering, KPI Analysis, Business Insights
 
 **Python:** Pandas, NumPy, Jupyter Notebook
 
-**Database:** MySQL, SQL, SQLAlchemy, PyMySQL
+**Database:** MySQL, SQL, SQLAlchemy
 
 **Visualization:** Power BI, KPI Cards, Bar Charts, Donut Charts, Maps, Scatter Plots, Slicers
 
